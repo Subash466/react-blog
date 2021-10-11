@@ -1,14 +1,14 @@
 import * as firebase from "firebase";
 
 var firebaseConfig = {
-  apiKey: "AIzaSyAkdayOMSAiQCDOiz7FwGLSvvF3St5vb4A",
-  authDomain: "react-blog-8f10e.firebaseapp.com",
-  databaseURL: "https://react-blog-8f10e-default-rtdb.firebaseio.com",
-  projectId: "react-blog-8f10e",
-  storageBucket: "react-blog-8f10e.appspot.com",
-  messagingSenderId: "73339943549",
-  appId: "1:73339943549:web:274a8d895a5aa27c0c8f14",
-  measurementId: "G-M29PE8R8BY"
+  apiKey: "AIzaSyCm_LO6Dx8RilApHZ546r_TEx4JG_SoqRA",
+  authDomain: "blog-website-2f016.firebaseapp.com",
+  databaseURL: "https://blog-website-2f016-default-rtdb.firebaseio.com",
+  projectId: "blog-website-2f016",
+  storageBucket: "blog-website-2f016.appspot.com",
+  messagingSenderId: "1060628970504",
+  appId: "1:1060628970504:web:efb9998f7083c0d25365bd",
+  measurementId: "G-SGP02W3BX7"
   };
   // Initialize Firebase
   var fireDb = firebase.initializeApp(firebaseConfig);
