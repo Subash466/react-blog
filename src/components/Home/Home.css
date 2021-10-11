@@ -1,0 +1,91 @@
+.heading{
+  color: aliceblue;
+  padding: 1rem;
+  font-weight: bold;
+}
+.modal-header{
+  display: flex;
+  justify-content: center;
+  background-color:  rgb(9, 60, 107);
+  color: white;
+}
+.modal-header h3{
+ margin-left: 25rem;
+}
+.modal-header .close{
+  margin-left: 25rem;
+  
+}
+.modal-header .close span{
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 3rem;
+}
+.home{
+  display: flex;
+  justify-content: center;
+}
+.singleBlog{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border: 0.3rem solid rgb(44, 44, 44);
+  box-shadow: 2px 4px rgb(0, 0, 0);
+  border-radius: 10px;
+  margin: 2rem;
+  padding: 2rem;
+  background-color: rgb(255, 236, 141);
+}
+.info{
+  display: flex;
+  justify-content: space-between;
+  padding:0 2rem;
+  margin-bottom: -2rem;
+}
+.info span{
+  color: rgb(236, 56, 1);
+  font-weight: bold;
+}
+.singleBlog h1{
+  color: rgb(32, 32, 32);
+  font-weight: bold;
+  font-size: 3rem;
+}
+.singleBlog p{
+  color: rgb(122, 4, 4);
+}
+.singleBlog .click button{
+  margin: 0 1rem;
+}
+.modal-body{
+  white-space: pre-line;
+}
+
+@media screen and (max-width: 480px) {
+  .modal-header h3{
+    margin-left: 4rem;
+    font-size: 2rem;
+  }
+  
+.modal-header .close{
+  margin-left: 5rem;
+}
+.singleBlog h1{
+  font-size: 2rem;
+}
+.singleBlog p{
+  font-size: 1.5rem;
+}
+.info{
+  display: flex;
+  flex-direction: column;
+  padding:0 1rem;
+  margin-bottom: -1rem;
+}
+.info h4{
+  font-size: 1.2rem;
+}
+.singleBlog .click button{
+  margin: 2rem 1rem;
+}
+}

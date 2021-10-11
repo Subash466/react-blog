@@ -1,0 +1,13 @@
+.blog form input{
+  height: 50px;
+}
+.blog form {
+ display: flex;
+ flex-direction: column;
+ padding: 1rem;
+}
+@media screen and (max-width: 480px){
+.one{
+  width: 280px;
+}
+}
